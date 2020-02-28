@@ -21,7 +21,12 @@ def nyc_pigeon_organizer(data)
     if key == :color 
       value.each do |color, name|
         
+<<<<<<< HEAD
         #adding colors to the hash 
+=======
+        #adding purple to each bird that is purple 
+        
+>>>>>>> ce955b064c6d46386dfa5839ccc709b8603e7106
           name.each do |n|
             hash.each do |bird, info|
               if bird == n 
@@ -32,7 +37,10 @@ def nyc_pigeon_organizer(data)
         end  
       end
     end
+<<<<<<< HEAD
   #adding gender to the hash 
+=======
+>>>>>>> ce955b064c6d46386dfa5839ccc709b8603e7106
   data.each do |key, value| 
     if key == :gender
       value.each do |gender, name| 
@@ -46,7 +54,10 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
+<<<<<<< HEAD
   #adding where they live to the hash 
+=======
+>>>>>>> ce955b064c6d46386dfa5839ccc709b8603e7106
   data.each do |key, value|
     if key == :lives
       value.each do |lives, name|
@@ -60,5 +71,8 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
+<<<<<<< HEAD
   hash
+=======
+>>>>>>> ce955b064c6d46386dfa5839ccc709b8603e7106
 end
